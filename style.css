@@ -56,6 +56,11 @@ nav {
     transition: all 0.3s ease;
 }
 
+.btn-primary:hover {
+    transform: scale(1.05);
+    background-color: rgb(222, 193, 87);
+}
+
 .btn-primary1 {
     background-color: #4E47FF;
     font-weight: bold;
@@ -70,7 +75,7 @@ nav {
 
 .btn-primary1:hover {
     transform: scale(1.05);
-    background-color: rgb(189, 107, 118);
+    background-color: rgb(222, 193, 87);
 }
 
 /*----------------------------------- Banner------------------------------------ */
@@ -88,7 +93,7 @@ nav {
     justify-content: center;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 700;
     color: #1a1a1a;
     margin: 0;
     margin-left: 150px;
@@ -348,7 +353,7 @@ body {
 }
 
 .btn-form:hover {
-    background-color: rgb(189, 107, 118);
+    background-color: rgb(222, 193, 87);
 }
 
 /*------------------------------- Footer--------------------------- */
